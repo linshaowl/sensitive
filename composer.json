@@ -1,0 +1,26 @@
+{
+    "name": "lswl/sensitive",
+    "description": "Filter sensitive words based on determination of Finite Automata (DFA) algorithm.",
+    "keywords": [
+        "lswl",
+        "sensitive",
+        "DFA"
+    ],
+    "homepage": "https://linshaowl.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linshaowl",
+            "email": "linshaowl@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lswl\\Sensitive\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|8.0",
+        "lustre/php-dfa-sensitive": "^1.0"
+    }
+}
